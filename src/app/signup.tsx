@@ -100,8 +100,8 @@ export default function SignUp() {
               onClick={() => setFormType("business")}
             />
           </div>
-          <div className="flex justify-center items-center bg-transparent backdrop-brightness-85 backdrop-blur-md w-[500px] h-[920px] rounded-2xl border-white border-[1px]">
-            <div className="space-y-4 w-[80%] h-[95%]">
+          <div className="flex justify-center items-center bg-transparent backdrop-brightness-85 backdrop-blur-md w-[500px] h-[850px] rounded-2xl border-white border-[1px]">
+            <div className="space-y-3 w-[80%] h-[95%]">
               <Image
                 src="/Rovenlogo.png"
                 alt="Hero1"
@@ -111,7 +111,7 @@ export default function SignUp() {
                 quality={100}
                 unoptimized
               />
-              <h2 className="text-white font-semibold mb-10">{signup ? "Sign Up" : "Sign In"}</h2>
+              <h2 className="text-white font-semibold mb-4">{signup ? "Sign Up" : "Sign In"}</h2>
               <IconInputField
                 label={formType == "personal" ? `Full Name` : "Business Name"}
                 name={formType == "personal" ? `fullname` : "businessname"}
