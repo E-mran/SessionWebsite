@@ -100,7 +100,7 @@ export default function SignUp() {
               onClick={() => setFormType("business")}
             />
           </div>
-          <div className="flex justify-center items-center bg-transparent backdrop-brightness-85 backdrop-blur-md w-[500px] h-[850px] rounded-2xl border-white border-[1px]">
+          <div className="flex justify-center items-center bg-transparent backdrop-brightness-85 backdrop-blur-md w-[500px] h-fit pb-4 rounded-2xl border-white border-[1px]">
             <div className="space-y-3 w-[80%] h-[95%]">
               <Image
                 src="/Rovenlogo.png"
