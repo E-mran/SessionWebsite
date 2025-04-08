@@ -84,7 +84,7 @@ export default function SignUp() {
       <div className="relative flex justify-center items-center gap-x-56 min-h-[97vh]">
         <LoopTexts />
         <div>
-          <div className="flex justify-center gap-4 mb-6">
+          <div className="flex justify-center gap-4 mb-6 mt-10">
             <Button
               label="Personal"
               className={`w-[140px] h-[40px] rounded-4xl font-semibold ${
@@ -179,7 +179,7 @@ export default function SignUp() {
         </div>
       </div>
 
-      <footer className="flex gap-5 text-white justify-center">
+      <footer className="mt-4 flex gap-5 text-white justify-center">
         <a href="">Terms and Conditions</a>
         <a href="">Support</a>
         <a href="">Customer Care</a>
