@@ -6,7 +6,7 @@ interface ImageProps {
   alt: string;
 }
 
-export const ReadyImage = ({ className = "", src, alt, ...props }: ImageProps) => (
+export const ReadyImage = ({ className = "", src, alt }: ImageProps) => (
   <Image
     src={src}
     alt={alt}

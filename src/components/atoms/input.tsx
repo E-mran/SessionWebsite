@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { ReadyImage } from "./image";
 
 type InputProps = React.InputHTMLAttributes<HTMLInputElement>;

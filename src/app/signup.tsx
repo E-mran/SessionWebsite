@@ -1,6 +1,6 @@
 "use client";
 import Button from "@/components/atoms/button";
-import { IconInputField, InputField } from "@/components/atoms/input";
+import { IconInputField } from "@/components/atoms/input";
 import Image from "next/image";
 import { useState, useEffect } from "react";
 
